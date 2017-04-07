@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"selectize",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "selectize",
+    "description": "api documentation for [selectize (v0.12.4)](https://github.com/selectize/selectize.js#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-selectize.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-selectize) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-selectize.svg)](https://travis-ci.org/npmdoc/node-npmdoc-selectize)",
     "devDependencies": {
-        "selectize": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "selectize": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-selectize",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-selectize",
+    "keywords": [
+        "documentation",
+        "selectize"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_selectize.js",
+    "name": "npmdoc-selectize",
+    "nameAlias": "npmdoc_selectize",
+    "nameOriginal": "npmdoc-selectize",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-selectize"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
