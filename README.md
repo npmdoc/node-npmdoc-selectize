@@ -1,9 +1,14 @@
-# api documentation for  [selectize (v0.12.4)](https://github.com/selectize/selectize.js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-selectize.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-selectize) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-selectize.svg)](https://travis-ci.org/npmdoc/node-npmdoc-selectize)
+# npmdoc-selectize
+
+#### api documentation for  [selectize (v0.12.4)](https://github.com/selectize/selectize.js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-selectize.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-selectize) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-selectize.svg)](https://travis-ci.org/npmdoc/node-npmdoc-selectize)
+
 #### Selectize is a jQuery-based custom <select> UI control. Useful for tagging, contact lists, country selectors, etc.
 
-[![NPM](https://nodei.co/npm/selectize.png?downloads=true)](https://www.npmjs.com/package/selectize)
+[![NPM](https://nodei.co/npm/selectize.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/selectize)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-selectize/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-selectize_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-selectize/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-selectize/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-selectize/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-selectize/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-selectize/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-selectize/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Brian Reavis",
-        "email": "brian@thirdroute.com"
+        "name": "Brian Reavis"
     },
     "bugs": {
         "url": "https://github.com/selectize/selectize.js/issues"
@@ -79,17 +83,14 @@
     "main": "dist/js/selectize.js",
     "maintainers": [
         {
-            "name": "brianreavis",
-            "email": "brian@thirdroute.com"
+            "name": "brianreavis"
         },
         {
-            "name": "joallard",
-            "email": "jonathan@allard.io"
+            "name": "joallard"
         }
     ],
     "name": "selectize",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/selectize/selectize.js.git"
@@ -100,16 +101,6 @@
     "version": "0.12.4"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module selectize](#apidoc.module.selectize)
-
-
-
-# <a name="apidoc.module.selectize"></a>[module selectize](#apidoc.module.selectize)
 
 
 
